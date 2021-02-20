@@ -1,0 +1,22 @@
+a.social {
+    display: inline-block;
+    transition: transform 250ms;
+}
+
+a.social:hover {
+    transform: translateY(-.25rem);
+}
+
+a.facebook {
+    color: #4968ad;
+}
+
+a.instagram {
+    color: #e4405f;
+    padding-left: .25rem;
+}
+
+a.linkedin {
+    color: #0E76A8;
+    padding-left: .25rem;
+}
