@@ -1,0 +1,19 @@
+.jumbotron-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url('../assets/pano4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 11rem;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .jumbotron-container {
+        height: auto;
+    }
+}
+
+.jumbotron-elements p {
+    font-weight: 600;
+}

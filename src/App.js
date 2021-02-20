@@ -5,7 +5,8 @@ import Container from 'react-bootstrap/container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import Footer from './components/footer';
+import Footer from './compontents/footer';
+import HomePage from './pages/home-page';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Mark Novak',
-        subTitle: 'Web Devloper from the North Woods'
+        subTitle: 'Web Devloper based in the North Woods'
       },
       publications: {
         title: 'Projects'
@@ -39,9 +40,9 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom" expand="lg" bg="light">
+          <Navbar className="border-bottom" expand="sm" bg="light">
             <Navbar.Brand>
-              <Link className="nav-brand" to="/">Mark Novak</Link>
+              <Link className="nav-brand" to="/">{this.state.title}</Link>
             </Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
@@ -53,6 +54,8 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
 
           <Footer />
         </Container>
