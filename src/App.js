@@ -7,6 +7,9 @@ import Nav from 'react-bootstrap/Nav';
 
 import Footer from './compontents/footer';
 import HomePage from './pages/home-page';
+import AboutPage from './pages/about-page';
+import ProjectsPage from './pages/projects-page';
+import ContactPage from './pages/contact-page';
 
 class App extends React.Component {
   constructor(props) {
@@ -23,7 +26,7 @@ class App extends React.Component {
         title: 'Mark Novak',
         subTitle: 'Web Devloper based in the North Woods'
       },
-      publications: {
+      projects: {
         title: 'Projects'
       },
       about: {
@@ -56,6 +59,9 @@ class App extends React.Component {
           </Navbar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
+          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} />} />
+          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
 
           <Footer />
         </Container>
