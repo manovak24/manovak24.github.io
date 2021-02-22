@@ -37,6 +37,7 @@ function ProjectSlider() {
         slidesToShow: 3,
         centerMode: true,
         centerPadding: 0,
+        dots: true,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
         beforeChange: (current, next) => setImageIndex(next),
@@ -51,7 +52,7 @@ function ProjectSlider() {
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 900,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -63,7 +64,8 @@ function ProjectSlider() {
               breakpoint: 480,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                dots: true
               }
             }
           ]
@@ -75,9 +77,11 @@ function ProjectSlider() {
                 {images.map((img, idx) => (
                     <div className={idx === imageIndex ? "slide active-slide": "slide"}>
                         {/*The anchor tag below will need to be udpated to account for seperate sites*/}
+                        <p>Jammming</p>
                         <a href="https://manovak24.github.io/jammming/" rel="noopener noreferrer" target="_blank">
                             <img src={img} alt="alt" />
                         </a>
+                        <a href="https://manovak24.github.io/jammming/" rel="noopener noreferrer" target="_blank">Click here to launch site</a>
                     </div>
                 ))}
             </Slider>
