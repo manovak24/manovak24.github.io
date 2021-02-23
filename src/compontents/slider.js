@@ -9,7 +9,32 @@ import splitboardkw from '../assets/sb-k-w.png';
 import mqtbackcountry from '../assets/mqt-backcountry.png';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
-const images = [jammming, chore, splitboardkw, mqtbackcountry]
+const images = [
+    {
+        id: 1,
+        title: 'Jammming',
+        source: 'https://manovak24.github.io/jammming/',
+        image: jammming
+    },
+    {
+        id: 2,
+        title: 'Chore Door',
+        source: 'https://manovak24.github.io/chore_door/',
+        image: chore
+    },
+    {
+        id: 3,
+        title: 'Splitboard Knowledge Warehouse',
+        source: 'https://manovak24.github.io/splitboard_knowledge_warehouse/',
+        image: splitboardkw
+    },
+    {
+        id: 4,
+        title: 'MQT Backcountry',
+        source: 'https://manovak24.github.io/mqt_backcountry/',
+        image: mqtbackcountry
+    }
+]
 
 function ProjectSlider() {
     const NextArrow = ({onClick}) => {
@@ -77,11 +102,11 @@ function ProjectSlider() {
                 {images.map((img, idx) => (
                     <div className={idx === imageIndex ? "slide active-slide": "slide"}>
                         {/*The anchor tag below will need to be udpated to account for seperate sites*/}
-                        <p>Jammming</p>
-                        <a href="https://manovak24.github.io/jammming/" rel="noopener noreferrer" target="_blank">
-                            <img src={img} alt="alt" />
+                        <p>{img.title}</p>
+                        <a href={img.source} rel="noopener noreferrer" target="_blank">
+                            <img src={img.image} alt="alt" />
                         </a>
-                        <a href="https://manovak24.github.io/jammming/" rel="noopener noreferrer" target="_blank">Click here to launch site</a>
+                        <a href={img.source} rel="noopener noreferrer" target="_blank">Click here to launch site</a>
                     </div>
                 ))}
             </Slider>
