@@ -23,7 +23,7 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Mark Novak',
+        title: 'Welcome!',
         subTitle: 'Web Devloper based in the North Woods'
       },
       projects: {
@@ -43,7 +43,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom" expand="sm" bg="light">
+          <Navbar expand="sm" bg="light">
             <Navbar.Brand>
               <Link className="nav-brand" to="/">{this.state.title}</Link>
             </Navbar.Brand>
@@ -58,7 +58,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} />} />
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
