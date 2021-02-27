@@ -5,6 +5,8 @@
     width: 100%;
     height: auto;
     padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 @media screen and (max-width: 37.5rem) {
@@ -56,6 +58,3 @@
     top: 50%;
 }
 
-.slick-dots {
-    background-color: rgb(146, 204, 146);
-}

@@ -4,10 +4,22 @@
 }
 
 .featured-container {
-    background-color: rgb(146, 204, 146);
+    background-color: rgb(190, 190, 190);
 }
 
 .featured-title {
     margin-bottom: 0rem;
     font-size: 2rem;
+}
+
+.home-text-container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .home-text-container {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 }

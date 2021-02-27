@@ -28,12 +28,8 @@ class ContactPage extends React.Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        
-        this.setState({
-            disabled: true
-        });
 
-        emailjs.sendForm('gmail', 'testing', event.target, 'user_rQF8cs4fYnfBs2O7qJ0gs')
+        emailjs.sendForm('gmail', 'portfolio', event.target, 'user_rQF8cs4fYnfBs2O7qJ0gs')
             .then(res => {
                 Swal.fire({
                     title: 'Email Successfully Sent',
@@ -49,7 +45,7 @@ class ContactPage extends React.Component {
             })
     
     }
-    
+ 
     render() {
         return(
             <div>
@@ -59,11 +55,11 @@ class ContactPage extends React.Component {
 
                 <Container>
                     <Row>
-                        <Col xs="auto" md={4}>
-                            <p>Let's connect! Please feel free to send me a direct email or via my social media accounts. Thanks!</p>
+                        <Col xs="auto" md={5} className="mb-4 mt-1">
+                            <p>Please feel free to reach out via my social media accounts, sending me a direct email or by filling out the contact form below. Thanks!</p>
                             <a href="mailto:manovakcoding@gmail.com" ><MdEmail /> manovakcoding@gmail.com</a>
                         </Col>
-                        <Col xs={12} md={8}>
+                        <Col xs={12} md={7}>
                             <Form onSubmit={this.handleSubmit}>
                                 <Form.Group>
                                     <Form.Label htmlFor="full-name">Full Name</Form.Label>
@@ -80,7 +76,7 @@ class ContactPage extends React.Component {
                                     <Form.Control id="message" name="message" as="textarea" row="3" value={this.state.message} onChange={this.handleChange} />
                                 </Form.Group>
 
-                                <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>Send</Button>
+                                <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.user_name < 1 || this.state.user_email < 1 || this.state.message < 1}>Send</Button>
                             </Form>
                         </Col>
                     </Row>

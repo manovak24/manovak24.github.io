@@ -5,6 +5,7 @@ import './social-follow.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faFacebook,
+    faGithub,
     faInstagram,
     faLinkedin
 } from '@fortawesome/free-brands-svg-icons';
@@ -20,6 +21,9 @@ function SocialFollow(props) {
             </a>
             <a href="https://www.linkedin.com/in/mark-novak-56679949/" className="linkedin social" rel="noopener noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
+            <a href="https://github.com/manovak24" className="github social" rel="noopener noreferrer" target="_blank">
+                <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
         </div>
     )

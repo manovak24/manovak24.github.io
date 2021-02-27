@@ -12,10 +12,10 @@ class Footer extends React.Component {
             <footer>
                 <Container fluid={true}>
                     <Row className="border-top justify-content-between p-3 mt-4 d-flex">
-                        <Col className="p-0 d-flex justify-content-start">
+                        <Col style={{textAlign:'left', padding:'0'}}>
                             <SocialFollow />
                         </Col>
-                        <Col className="p-0 d-flex justify-content-end">Novak North Designs</Col>
+                        <Col style={{textAlign:'right', padding:'0'}}>Novak North Designs</Col>
                     </Row>
                 </Container>
             </footer>

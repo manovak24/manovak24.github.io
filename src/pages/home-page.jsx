@@ -13,7 +13,7 @@ class HomePage extends React.Component {
                     <Hero title={this.props.title} subTitle={this.props.subTitle} />
                 </div>
                 <div className="home-container"> 
-                    <div>
+                    <div className="home-text-container">
                         <p>My name is Mark Novak. I am a web developer based in the north woods of the beuatiful Upper Peninsula of Michigan. Please feel free to check out my About and Projects page to learn more about myself and my projects.</p>
                     </div>
                     <h1 className="featured-title">Featured Projects</h1>
