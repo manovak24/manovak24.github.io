@@ -16,11 +16,30 @@ class HomePage extends React.Component {
                     <div className="home-text-container">
                         <p>My name is Mark Novak. I am a web developer based in the north woods of the beuatiful Upper Peninsula of Michigan. Please feel free to check out my About and Projects page to learn more about myself and my projects.</p>
                     </div>
+                    
+                    <div className="topo-container">
+                        <div className="topo-boxes">
+                            <div className="box">
+                                <p>Check out my About Page to learn more about myself</p>
+                                <a href="https://manovak24.github.io/about">About</a>
+                            </div>
+                            <div className="box">
+                                <p>Click the link below to learn more about my projects and skills</p>
+                                <a href="https://manovak24.github.io/projects">Projects</a>
+                            </div>
+                            <div className="box">
+                                <p>Let's connect!</p>
+                                <a href="https://manovak24.github.io/contact">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <h1 className="featured-title">Featured Projects</h1>
                     <div className="featured-container">
-                        <p>Below are some samples of some of my featured projects. Please check out my Projects page for full listing of project websites</p>
                         <ProjectSlider />
                     </div>
+
+                    
                 </div>
             </div>
         )
