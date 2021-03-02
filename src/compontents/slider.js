@@ -106,7 +106,7 @@ function ProjectSlider() {
                         <a href={img.source} rel="noopener noreferrer" target="_blank">
                             <img src={img.image} alt="alt" />
                         </a>
-                        <a href={img.source} rel="noopener noreferrer" target="_blank">Click here to launch site</a>
+                        <a className="slide-link" href={img.source} rel="noopener noreferrer" target="_blank">Click here to launch site</a>
                     </div>
                 ))}
             </Slider>

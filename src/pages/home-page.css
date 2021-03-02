@@ -4,9 +4,9 @@
 }
 
 .featured-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url(../assets/topo-map.png);
-    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65) ), url(../assets/topo-map.png);
     font-weight: 900;
+    color: white;
 }
 
 .featured-title {
@@ -27,18 +27,18 @@
 }
 
 /*Topo Section*/
-.topo-container {
+.box-container {
     height: 380px;
     width: 100%;
     padding-top: 40px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: whitesmoke;
-    margin-bottom: 50px;
+    color: white;
+    font-weight: 700;
 }
 
-.topo-boxes {
+.info-boxes {
     max-width: 1050px;
     margin: 15px auto auto auto;
     display: flex;
@@ -55,11 +55,11 @@
 }
 
 @media screen and (max-width: 500px) {
-    .topo-container {
+    .box-container {
       height: auto;
       padding-bottom: 40px;
     }
-    .topo-boxes {
+    .info-boxes {
       display: flex;
       flex-flow: column;
       justify-content: space-around;
