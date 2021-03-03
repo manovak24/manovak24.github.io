@@ -1,8 +1,9 @@
 import React from 'react';
-import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 import Hero from '../compontents/hero.jsx';
+import SocialFollow from '../compontents/social-follow';
 
-import { MdEmail } from 'react-icons/md';
+import { Col, Container, Form, Row, Button } from 'react-bootstrap';
+import { MdEmail, MdMyLocation } from 'react-icons/md';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
@@ -55,10 +56,16 @@ class ContactPage extends React.Component {
 
                 <Container>
                     <Row>
-                        <Col xs="auto" md={5} className="mb-4 mt-1">
+                        <Col className="mb-4 mt-1 justify-content-center">
                             <p>Please feel free to reach out via my social media accounts, sending me a direct email or by filling out the contact form below. Thanks!</p>
-                            <a href="mailto:manovakcoding@gmail.com" ><MdEmail /> manovakcoding@gmail.com</a>
+                            <a href="https://www.google.com/maps/place/Marquette,+MI/data=!4m2!3m1!1s0x4d51df5dc446b685:0x91364aad4c5ac71a?sa=X&ved=2ahUKEwiZgdy_0JTvAhWVZ80KHXTxDesQ8gEwKHoECDsQAQ">
+                                <MdMyLocation /> Marquette, MI
+                            </a>
+                            <a href="mailto:manovakcoding@gmail.com"><MdEmail /> manovakcoding@gmail.com</a>
+                            <SocialFollow />
                         </Col>
+                    </Row>
+                    <Row>   
                         <Col xs={12} md={7}>
                             <Form onSubmit={this.handleSubmit}>
                                 <Form.Group>

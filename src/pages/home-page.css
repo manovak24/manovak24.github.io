@@ -39,7 +39,7 @@
 
 .info-boxes {
     max-width: 1050px;
-    margin: 15px auto auto auto;
+    margin: auto;
     display: flex;
     justify-content: space-around;
 }  
