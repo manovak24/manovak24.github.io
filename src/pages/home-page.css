@@ -28,9 +28,9 @@
 
 /*Topo Section*/
 .box-container {
-    height: 380px;
+    height: 23.75rem;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 2.5rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,15 +38,15 @@
 }
 
 .info-boxes {
-    max-width: 1050px;
+    max-width: 65.625rem;
     margin: auto;
     display: flex;
     justify-content: space-around;
 }  
 
 .box {
-    height: 250px;
-    padding: 20px;
+    height: 15.625rem;
+    padding: 1.25rem;
     margin-bottom: auto;
     background-color: rgba(0, 0, 0, 0.562);
     font-size: 1.1rem;
@@ -62,10 +62,10 @@
     color: white;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 31.25rem) {
     .box-container {
       height: auto;
-      padding-bottom: 40px;
+      padding-bottom: 2.5rem;
     }
     .info-boxes {
       display: flex;
@@ -74,6 +74,6 @@
       width: 80%;
     }
     .box {
-      margin-bottom: 25px;
+      margin-bottom: 1.563rem;
     }
   }

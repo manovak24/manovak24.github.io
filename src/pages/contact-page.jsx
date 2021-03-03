@@ -3,7 +3,7 @@ import Hero from '../compontents/hero.jsx';
 import SocialFollow from '../compontents/social-follow';
 
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
-import { MdEmail, MdMyLocation } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
@@ -56,16 +56,16 @@ class ContactPage extends React.Component {
 
                 <Container>
                     <Row>
-                        <Col className="mb-4 mt-1 justify-content-center">
+                        <Col className="mb-4 mt-1" style={{textAlign:'center'}}>
                             <p>Please feel free to reach out via my social media accounts, sending me a direct email or by filling out the contact form below. Thanks!</p>
-                            <a href="https://www.google.com/maps/place/Marquette,+MI/data=!4m2!3m1!1s0x4d51df5dc446b685:0x91364aad4c5ac71a?sa=X&ved=2ahUKEwiZgdy_0JTvAhWVZ80KHXTxDesQ8gEwKHoECDsQAQ">
-                                <MdMyLocation /> Marquette, MI
-                            </a>
                             <a href="mailto:manovakcoding@gmail.com"><MdEmail /> manovakcoding@gmail.com</a>
                             <SocialFollow />
                         </Col>
                     </Row>
-                    <Row>   
+                    <Row>
+                        <Col className="mb-4 mt-2" xs={12} md={5} style={{backgroundColor:'green', height:'16rem'}}>
+                            <p>This is where the google map api will go</p>
+                        </Col>   
                         <Col xs={12} md={7}>
                             <Form onSubmit={this.handleSubmit}>
                                 <Form.Group>
