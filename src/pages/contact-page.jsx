@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../compontents/hero.jsx';
 import SocialFollow from '../compontents/social-follow';
+import MapContainer from '../compontents/map';
 
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 import { MdEmail } from 'react-icons/md';
@@ -63,8 +64,8 @@ class ContactPage extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col className="mb-4 mt-2" xs={12} md={5} style={{backgroundColor:'green', height:'16rem'}}>
-                            <p>This is where the google map api will go</p>
+                        <Col className="mb-4 mt-2" xs={12} md={5} >
+                            <MapContainer />
                         </Col>   
                         <Col xs={12} md={7}>
                             <Form onSubmit={this.handleSubmit}>

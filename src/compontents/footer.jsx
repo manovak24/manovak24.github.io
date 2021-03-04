@@ -11,7 +11,7 @@ class Footer extends React.Component {
         return (
             <footer>
                 <Container fluid={true}>
-                    <Row className="border-top justify-content-between p-3 mt-1 d-flex">
+                    <Row className="border-top justify-content-between p-3 mt-4 d-flex">
                         <Col style={{textAlign:'left', padding:'0'}}>
                             <SocialFollow />
                         </Col>
