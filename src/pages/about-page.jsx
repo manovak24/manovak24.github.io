@@ -1,6 +1,8 @@
 import React from 'react';
+import { BsChatDots, BsClipboardData } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Hero from '../compontents/hero.jsx';
+import './about-page.css';
 
 
 class AboutPage extends React.Component {
@@ -16,8 +18,8 @@ class AboutPage extends React.Component {
                     <p>Exploring possible career paths, I came across web development. At first it started as a side project hobby. Coding on the weekends and slowly making steps forward. Eventually the snowball effect took control and soon became a sole focus in my life. I have been enrolled in the CodeCademy Full-Stack Web Development course for the past year. This is been a challenging, humbling and rewarding experience. I love to continuously learn and keep progressing forward.</p>
                 </div>
                 <div className="button-container">
-                    <Link clasName="button-link" to="/projects">Projects</Link>
-                    <Link clasName="button-link" to="/contact">Contact</Link>
+                    <Link className="button-link" to="/projects"><BsClipboardData size="25" /> Projects</Link>
+                    <Link className="button-link" to="/contact"><BsChatDots size="25" /> Contact</Link>
                 </div>
             </div>
 

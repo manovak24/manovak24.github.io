@@ -1,0 +1,31 @@
+.bio-container {
+    text-align: center;
+    margin: auto 5rem 2rem 5rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button-link {
+    width: 12rem;
+    border-radius: 4px;
+    padding: .65rem 2rem;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: #ffffff;
+    font-weight: 750;
+    transition: .1s;
+    margin-right: 1em;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 31.25rem) {
+    .bio-container {
+        margin: auto 2rem 2rem 2rem;
+    }
+}
