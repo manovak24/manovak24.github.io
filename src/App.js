@@ -27,7 +27,7 @@ class App extends React.Component {
         subTitle: 'Web Devloper based in the North Woods'
       },
       projects: {
-        title: 'Projects'
+        title: 'Projects & Skills'
       },
       about: {
         title: 'About Me'

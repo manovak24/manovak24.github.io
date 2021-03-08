@@ -64,7 +64,7 @@ class ProjectSkillList extends React.Component {
     render() {
         return (
             <Row>
-                <Col>
+                <Col xs={12} md={4} className="border-right pl-5 pr-5">
                     <div>
                         <h1>Skills</h1>
                         <ul>
@@ -76,8 +76,8 @@ class ProjectSkillList extends React.Component {
                         </ul>
                     </div>
                 </Col>
-                
-                <Col>
+
+                <Col xs={12} md={8} className="pl-5 pr-5">
                     <div>
                         <h1>Projects</h1>
                         <ul>
