@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from 'react-icons/di';
 
 class ProjectSkillList extends React.Component {
@@ -62,32 +63,35 @@ class ProjectSkillList extends React.Component {
 
     render() {
         return (
-            
-            <div>
-                <div>
-                    <h1>Projects</h1>
-                    <ul>
-                        {this.state.projects.slice(0).map(projects => (
-                            <li key={projects.id}>
-                                <p>{projects.title}</p>
-                                <p>{projects.description}</p>
-                                <p><a href={projects.link} target="_blank" rel="noopener noreferrer">Click here to launch site</a></p>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-                <div>
-                    <h1>Skills</h1>
-                    <ul>
-                        {this.state.skills.map(skills => (
-                            <li key={skills.id}>
-                                <p>{skills.logo} {skills.title}</p>
-                                <p></p>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            </div>  
+            <Row>
+                <Col>
+                    <div>
+                        <h1>Skills</h1>
+                        <ul>
+                            {this.state.skills.map(skills => (
+                                <li key={skills.id}>
+                                    <p>{skills.logo} {skills.title}</p>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </Col>
+                
+                <Col>
+                    <div>
+                        <h1>Projects</h1>
+                        <ul>
+                            {this.state.projects.slice(0).map(projects => (
+                                <li key={projects.id}>
+                                    <p>{projects.title}</p>
+                                    <p>{projects.description}</p>
+                                    <p><a href={projects.link} target="_blank" rel="noopener noreferrer">Click here to launch site</a></p>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </Col>
+            </Row>
         )
     }
 }
