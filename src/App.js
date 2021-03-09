@@ -10,6 +10,7 @@ import HomePage from './pages/home-page';
 import AboutPage from './pages/about-page';
 import ProjectsPage from './pages/projects-page';
 import ContactPage from './pages/contact-page';
+import ScrollToTop from './compontents/scroll';
 
 class App extends React.Component {
   constructor(props) {
@@ -41,6 +42,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+        <ScrollToTop>
         <Container className="p-0" fluid={true}>
           
           <Navbar expand="sm" bg="light">
@@ -65,6 +67,7 @@ class App extends React.Component {
 
           <Footer />
         </Container>
+        </ScrollToTop>
       </Router>
     );
   }
