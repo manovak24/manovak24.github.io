@@ -20,7 +20,7 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
-        { title: 'Projects', path: '/projects' },
+        { title: 'Skills & Projects', path: '/projects' },
         { title: 'Contact', path: '/contact' }
       ],
       home: {
@@ -28,7 +28,7 @@ class App extends React.Component {
         subTitle: 'Web Devloper based in the North Woods'
       },
       projects: {
-        title: 'Projects & Skills'
+        title: 'Skills & Projects'
       },
       about: {
         title: 'About Me'
@@ -54,7 +54,7 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/projects">Projects</Link>
+                <Link className="nav-link" to="/projects">Skills & Projects</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>

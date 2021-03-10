@@ -1,0 +1,16 @@
+.skills-list p {
+    display: inline;
+    padding: .5rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .skills-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1.2rem;
+    }
+    .skill-title {
+        display: none !important;
+    }
+}

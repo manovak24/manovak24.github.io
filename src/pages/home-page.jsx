@@ -28,7 +28,7 @@ class HomePage extends React.Component {
                             </div>
                             <div className="box">
                                 <Link className="box-anchor" to="/projects">
-                                    <p>Click to learn about my project and skills</p>
+                                    <p>Click to learn about my skills and projects</p>
                                     <BsClipboardData size="100" /> 
                                 </Link>
                             </div>
