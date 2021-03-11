@@ -37,49 +37,49 @@ class ProjectSkillList extends React.Component {
                 {
                     id: 1,
                     title: 'HTML',
-                    logo: <DiHtml5 size='38'  />,
+                    logo: <DiHtml5 size='48'  />,
                     alt: 'html'
                 },
                 {
                     id: 2,
                     title: 'CSS',
-                    logo: <DiCss3 size='38'  />,
+                    logo: <DiCss3 size='48'  />,
                     alt: 'css'
                 },
                 {
                     id: 3,
                     title: 'JavaScript',
-                    logo: <DiJavascript size='38'  />,
+                    logo: <DiJavascript size='48'  />,
                     alt: 'javascript'
                 },
                 {
                     id: 4,
                     title: 'React',
-                    logo: <DiReact size='38'  />,
+                    logo: <DiReact size='48'  />,
                     alt: 'react'
                 },
                 {
                     id: 5,
                     title: 'npm',
-                    logo: <DiNpm size='38' />,
+                    logo: <DiNpm size='48' />,
                     alt: 'npm'
                 },
                 {
                     id: 6,
                     title: 'git',
-                    logo: <DiGit size='38' />,
+                    logo: <DiGit size='48' />,
                     alt: 'git'
                 },
                 {
                     id: 7,
                     title: 'GitHub',
-                    logo: <DiGithubBadge size='38' />,
+                    logo: <DiGithubBadge size='48' />,
                     alt: 'GitHub'
                 },
                 {
                     id: 8,
                     title: 'node',
-                    logo: <DiNodejs size='38' />,
+                    logo: <DiNodejs size='48' />,
                     alt: 'node'
                 }
             ]
@@ -88,8 +88,8 @@ class ProjectSkillList extends React.Component {
 
     render() {
         return (
-            <Row>
-                <Col xs={12} md={4} className="border-right pl-5 pr-5">
+            <Row className="project-skill-container">
+                <Col xs={12} md={4} className="border-right">
                     <div className="skills-container">
                         <h1>Skills</h1>
                         <ul className="skills-list">
@@ -103,13 +103,13 @@ class ProjectSkillList extends React.Component {
                     </div>
                 </Col>
 
-                <Col xs={12} md={8} className="pl-5 pr-5">
-                    <div>
+                <Col xs={12} md={8}>
+                    <div className="project-container">
                         <h1>Projects</h1>
                         <ul>
                             {this.state.projects.slice(0).map(projects => (
                                 <li key={projects.id}>
-                                    <p>{projects.title}</p>
+                                    <h2>{projects.title}</h2>
                                     <p>{projects.description}</p>
                                     <p><a href={projects.link} target="_blank" rel="noopener noreferrer">Click here to launch site</a></p>
                                 </li>

@@ -35,8 +35,17 @@ class App extends React.Component {
       },
       contact: {
         title: 'Let\'s Connect!'
-      }
+      },
+      navExpanded: false,
     }
+  }
+
+  setNavExpanded = (expanded) => {
+    this.setState({ navExpanded: expanded });
+  }
+
+  setNavClose = () => {
+    this.setState({ navExpanded: false });
   }
 
   render() {
@@ -45,13 +54,13 @@ class App extends React.Component {
         <ScrollToTop>
         <Container className="p-0" fluid={true}>
           
-          <Navbar expand="sm" bg="light">
+          <Navbar expand="sm" bg="light" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
             <Navbar.Brand>
               <Link className="nav-brand" to="/">{this.state.title}</Link>
             </Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
+              <Nav className="ml-auto" onClick={this.setNavClose}>
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/projects">Skills & Projects</Link>
