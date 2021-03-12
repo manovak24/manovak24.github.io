@@ -7,7 +7,6 @@ import jammming from '../assets/thumb-jammming.png';
 import chore from '../assets/thumb-chore-door.png';
 import splitboardkw from '../assets/thumb-sb-k-w.png';
 import mqtbackcountry from '../assets/thumb-mqt-backcountry.png';
-import { Link } from 'react-router-dom';
 
 class ProjectSkillList extends React.Component {
     constructor(props) {
