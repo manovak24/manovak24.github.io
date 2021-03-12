@@ -16,7 +16,8 @@ class ProjectSkillList extends React.Component {
                 {
                     id: 1,
                     title: 'Splitboard Knowledge Warehouse',
-                    description: 'This sample project was created with HTML and CSS. The idea behind the project was to create a responsive one page site for a fake group that provides informaton on splitboarding.',
+                    description: 'This project was designed to display a responsive website for a fictitious organization that provides information and resources on split boarding. The website is an example of a single page site containing multiple sections for the pertinent information.',
+                    languages: 'HTML, CSS and JavaScript',
                     img: splitboardkw,
                     altImg: 'screen shot of SbKW',
                     link: 'https://manovak24.github.io/splitboard_knowledge_warehouse/'
@@ -25,6 +26,7 @@ class ProjectSkillList extends React.Component {
                     id: 2,
                     title: 'MQT Backcountry',
                     description: 'This is where  short description will go. This is where  short description will go. This is where  short description will go.',
+                    languages: 'HTML, CSS and JavaScript',
                     img: mqtbackcountry,
                     altImg: 'screen shot of mqt backcountry',
                     link: 'https://manovak24.github.io/mqt_backcountry/'
@@ -33,6 +35,7 @@ class ProjectSkillList extends React.Component {
                     id: 3,
                     title: 'Chore Door',
                     description: 'This is where  short description will go. This is where  short description will go. This is where  short description will go.',
+                    languages: 'HTML, CSS and JavaScript',
                     img: chore,
                     altImg: 'screen shot of chore door',
                     link: 'https://manovak24.github.io/chore_door/'
@@ -41,6 +44,7 @@ class ProjectSkillList extends React.Component {
                     id: 4,
                     title: 'Jammming',
                     description: 'This is where  short description will go. This is where  short description will go. This is where  short description will go.',
+                    languages: 'ReactJS, JavaScript, HTML, CSS, React Icons, React Bootstrap, Google Map, React pdf, React Router, React Slick and Sweet Alert',
                     img: jammming,
                     altImg: 'screen shot of jammming',
                     link: 'https://manovak24.github.io/jammming/'
@@ -124,11 +128,12 @@ class ProjectSkillList extends React.Component {
                                 <li key={projects.id}>
                                     <h2>{projects.title}</h2>
                                     <p>{projects.description}</p>
+                                    <p style={{ fontStyle: 'italic' }}>**Technologies: {projects.languages}</p>
                                     <div className="image-link">
                                         <a href={projects.link} target="_blank" rel="noopener noreferrer">
                                             <img src={projects.img} alt={projects.altImg}></img>
                                         </a>
-                                        <a className="button-link" href={projects.link} target="_blank" rel="noopener noreferrer">Click here to launch site</a>
+                                        <a className="button-link" href={projects.link} target="_blank" rel="noopener noreferrer">Launch site</a>
                                     </div>
                                 </li>
                             ))}

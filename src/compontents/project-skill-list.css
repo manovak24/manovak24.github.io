@@ -36,6 +36,7 @@
 .projects-skills-container h2 {
     font-size: 1.5rem;
     font-weight: 500;
+    border-bottom: .05rem solid black;
 }
 
 @media screen and (max-width: 48rem) {
@@ -70,9 +71,8 @@
 }
 
 .button-link {
-    width: 16rem;
+    width: 10rem;
     border-radius: 1rem;
-    padding: .65rem 2rem;
     background-color: rgba(0, 0, 0, 0.562);
     color: #ffffff;
     font-weight: 750;

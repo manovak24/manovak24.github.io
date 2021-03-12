@@ -15,7 +15,7 @@ class HomePage extends React.Component {
                 </div>
                 <div className="home-container"> 
                     <div className="home-text-container">
-                        <p>Thank you for checking out my site! I am a web developer based in the north woods of the beuatiful Upper Peninsula of Michigan. Please feel free to check out my About and Projects page to learn more about myself and my projects.</p>
+                        <p>Thank you for checking out my site! I am a web developer based in the north woods of the Upper Peninsula of Michigan. Please feel free to check out my About and Projects page to learn more about myself and my projects.</p>
                     </div>
                     
                     <div className="box-container">
