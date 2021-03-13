@@ -22,7 +22,7 @@ class HomePage extends React.Component {
                         <div className="info-boxes">
                             <div className="box">
                                 <Link className="box-anchor" to="/about">
-                                    <p> Click to learn more about myself</p>
+                                    <p>Click to learn more about myself</p>
                                     <BsPeopleCircle size="100" />
                                 </Link>     
                             </div>

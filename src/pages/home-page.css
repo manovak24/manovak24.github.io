@@ -3,17 +3,6 @@
     width: 100%;
 }
 
-.featured-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65) ), url(../assets/topo-map.png);
-    font-weight: 900;
-    color: white;
-}
-
-.featured-title {
-    margin-bottom: 0rem;
-    font-size: 2rem;
-}
-
 .home-text-container {
     padding-left: 15%;
     padding-right: 15%;
@@ -26,14 +15,10 @@
     }
 }
 
-/*Topo Section*/
 .box-container {
     height: 23.75rem;
     width: 100%;
     padding-top: 2.5rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     font-weight: 700;
 }
 
@@ -78,3 +63,17 @@
       margin-bottom: 1.563rem;
     }
   }
+  
+.featured-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65) ), url(../assets/topo-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: 900;
+    color: white;
+}
+
+.featured-title {
+    margin-bottom: 0rem;
+    font-size: 2rem;
+}
