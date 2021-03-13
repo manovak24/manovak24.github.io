@@ -18,7 +18,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 1.5rem;
 }
 
 .skills-list {
@@ -66,17 +65,25 @@
         border-bottom: .15rem solid black;
     }
     .image-link {
-        transform: scale(.95);
+        transform: scale(.85);
     }
 }
 
-.button-link {
-    width: 10rem;
+.link-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.site-launch-button {
+    min-width: 12rem;
     border-radius: 1rem;
     background-color: rgba(0, 0, 0, 0.562);
     color: #ffffff;
     font-weight: 750;
     transition: .1s;
-    margin: 1rem;
+    margin: .35rem;
+    padding: .65rem 2rem;
     text-align: center;
 }

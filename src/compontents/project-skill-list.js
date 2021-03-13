@@ -20,7 +20,8 @@ class ProjectSkillList extends React.Component {
                     languages: 'HTML, CSS and JavaScript',
                     img: splitboardkw,
                     altImg: 'screen shot of SbKW',
-                    link: 'https://manovak24.github.io/splitboard_knowledge_warehouse/'
+                    link: 'https://manovak24.github.io/splitboard_knowledge_warehouse/',
+                    githubLink: 'https://github.com/manovak24/splitboard_knowledge_warehouse'
                 },
                 {
                     id: 2,
@@ -29,7 +30,8 @@ class ProjectSkillList extends React.Component {
                     languages: 'HTML, CSS and JavaScript',
                     img: mqtbackcountry,
                     altImg: 'screen shot of mqt backcountry',
-                    link: 'https://manovak24.github.io/mqt_backcountry/'
+                    link: 'https://manovak24.github.io/mqt_backcountry/',
+                    githubLink: 'https://github.com/manovak24/mqt_backcountry'
                 },
                 {
                     id: 3,
@@ -38,7 +40,8 @@ class ProjectSkillList extends React.Component {
                     languages: 'HTML, CSS and JavaScript',
                     img: chore,
                     altImg: 'screen shot of chore door',
-                    link: 'https://manovak24.github.io/chore_door/'
+                    link: 'https://manovak24.github.io/chore_door/',
+                    githubLink: 'https://github.com/manovak24/chore_door'
                 },
                 {
                     id: 4,
@@ -47,7 +50,8 @@ class ProjectSkillList extends React.Component {
                     languages: 'ReactJS, JavaScript, HTML, CSS, React Icons, React Bootstrap, Google Map, React pdf, React Router, React Slick and Sweet Alert',
                     img: jammming,
                     altImg: 'screen shot of jammming',
-                    link: 'https://manovak24.github.io/jammming/'
+                    link: 'https://manovak24.github.io/jammming/',
+                    githubLink: 'https://github.com/manovak24/jammming'
                 }
             ],
             skills: [
@@ -133,7 +137,10 @@ class ProjectSkillList extends React.Component {
                                         <a href={projects.link} target="_blank" rel="noopener noreferrer">
                                             <img src={projects.img} alt={projects.altImg}></img>
                                         </a>
-                                        <a className="button-link" href={projects.link} target="_blank" rel="noopener noreferrer">Launch site</a>
+                                    </div>
+                                    <div className="link-container">
+                                        <a className="site-launch-button" href={projects.link} target="_blank" rel="noopener noreferrer">Launch site</a>
+                                        <a className="site-launch-button" href={projects.githubLink} target="_blank" rel="noopener noreferrer"><DiGithubBadge size='24' /> GitHub Repo</a>
                                     </div>
                                 </li>
                             ))}
