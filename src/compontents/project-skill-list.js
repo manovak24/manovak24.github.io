@@ -16,7 +16,7 @@ class ProjectSkillList extends React.Component {
                 {
                     id: 1,
                     title: 'Splitboard Knowledge Warehouse',
-                    description: 'This project was designed to display a responsive website for a fictitious organization that provides information and resources on split boarding. The website is an example of a single page site containing multiple sections for the pertinent information.',
+                    description: 'This site was created to demonstrate the use of flex box in order to design a one page responsive website for a fictitious organization.',
                     languages: 'HTML, CSS and JavaScript',
                     img: splitboardkw,
                     altImg: 'screen shot of SbKW',
@@ -26,7 +26,7 @@ class ProjectSkillList extends React.Component {
                 {
                     id: 2,
                     title: 'MQT Backcountry',
-                    description: 'This is where  short description will go. This is where  short description will go. This is where  short description will go.',
+                    description: 'MQT Backcountry is a project I created that utilizes CSS Grid Layout to create a responsive website with multiple pages for a fake outdoor recreation club.',
                     languages: 'HTML, CSS and JavaScript',
                     img: mqtbackcountry,
                     altImg: 'screen shot of mqt backcountry',
@@ -36,7 +36,7 @@ class ProjectSkillList extends React.Component {
                 {
                     id: 3,
                     title: 'Chore Door',
-                    description: 'This is where  short description will go. This is where  short description will go. This is where  short description will go.',
+                    description: 'This project was part of CodeCademy’s Full Stack Developer course, which consists of a single page website game built with HTML, CSS and JavaScript.',
                     languages: 'HTML, CSS and JavaScript',
                     img: chore,
                     altImg: 'screen shot of chore door',
@@ -46,7 +46,7 @@ class ProjectSkillList extends React.Component {
                 {
                     id: 4,
                     title: 'Jammming',
-                    description: 'This is where  short description will go. This is where  short description will go. This is where  short description will go.',
+                    description: 'This project was created using React and utilizes the Spotify API request allowing users to search music and create playlists via the Jammming app. Users are then able to push the created play list to their personal Spotify accounts.',
                     languages: 'ReactJS, JavaScript, HTML, CSS, React Icons, React Bootstrap, Google Map, React pdf, React Router, React Slick and Sweet Alert',
                     img: jammming,
                     altImg: 'screen shot of jammming',
