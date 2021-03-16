@@ -54,7 +54,7 @@ class App extends React.Component {
         <ScrollToTop>
         <Container className="p-0" fluid={true}>
           
-          <Navbar expand="sm" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
+          <Navbar expand="sm" className="nav-container" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
             <Navbar.Brand>
               <Link className="nav-brand" to="/">{this.state.title}</Link>
             </Navbar.Brand>
