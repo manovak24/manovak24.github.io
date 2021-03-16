@@ -4,14 +4,16 @@
 }
 
 .home-text-container {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    background-color: rgba(161, 161, 161, 0.336);    
 }
 
 @media screen and (max-width: 37.5rem) {
     .home-text-container {
-        padding-left: 0%;
-        padding-right: 0%;
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
 }
 
