@@ -1,7 +1,9 @@
 .nav-brand {
   color: black;
+  font-weight: 450;
 }
 
 .nav-link {
   color: black !important;
+  font-weight: 450;
 }
