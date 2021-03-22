@@ -40,7 +40,6 @@ return (
             <Slider {...settings}>
                 {images.map((img, idx) => (
                     <div className={idx === imageIndex ? "slide active-slide": "slide"}>
-                        {/*The anchor tag below will need to be udpated to account for seperate sites*/}
                         <p>{img.title}</p>
                         <a href={img.source} rel="noopener noreferrer" target="_blank">
                             <img src={img.image} alt="alt" />
