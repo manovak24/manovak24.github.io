@@ -15,16 +15,6 @@ class ProjectSkillList extends React.Component {
             projects: [
                 {
                     id: 1,
-                    title: 'Splitboard Knowledge Warehouse',
-                    description: 'This site was created to demonstrate the use of flex box in order to design a one page responsive website for a fictitious organization.',
-                    languages: 'HTML, CSS and JavaScript',
-                    img: splitboardkw,
-                    altImg: 'screen shot of SbKW',
-                    link: 'https://manovak24.github.io/splitboard_knowledge_warehouse/',
-                    githubLink: 'https://github.com/manovak24/splitboard_knowledge_warehouse'
-                },
-                {
-                    id: 2,
                     title: 'MQT Backcountry',
                     description: 'MQT Backcountry is a project I created that utilizes CSS Grid Layout to create a responsive website with multiple pages for a fake outdoor recreation club.',
                     languages: 'HTML, CSS and JavaScript',
@@ -33,6 +23,17 @@ class ProjectSkillList extends React.Component {
                     link: 'https://manovak24.github.io/mqt_backcountry/',
                     githubLink: 'https://github.com/manovak24/mqt_backcountry'
                 },
+                {
+                    id: 2,
+                    title: 'Splitboard Knowledge Warehouse',
+                    description: 'This site was created to demonstrate the use of flex box in order to design a one page responsive website for a fictitious organization.',
+                    languages: 'HTML, CSS and JavaScript',
+                    img: splitboardkw,
+                    altImg: 'screen shot of SbKW',
+                    link: 'https://manovak24.github.io/splitboard_knowledge_warehouse/',
+                    githubLink: 'https://github.com/manovak24/splitboard_knowledge_warehouse'
+                },
+                
                 {
                     id: 3,
                     title: 'Chore Door',
