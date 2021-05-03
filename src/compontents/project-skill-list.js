@@ -110,45 +110,67 @@ class ProjectSkillList extends React.Component {
 
     render() {
         return (
-            <Row className="projects-skills-container">
-                <Col xs={12} md={4} className="border-right">
-                    <div className="skills-container">
-                        <h1>Skills</h1>
-                        <ul className="skills-list">
-                            {this.state.skills.map(skills => (
-                                <li key={skills.id}>
-                                    <p>{skills.logo}</p>
-                                    <p className="skills-title">{skills.title}</p>
+            <div>
+                <Row className="projects-skills-container">
+                    <Col>
+                        <div className="education-container">
+                            <h1>Education</h1>
+                            <ul>
+                                <li>
+                                    <p><span className="education-title">Northern Michigan University</span> - Bachelor of Science - Finance and Risk Management</p>
+                                    <p><span className="education-title">Northern Michigan University</span> - Masters of Business Administration</p>
+                                    <p><span className="education-title">Codecademy</span> - Full-Stack Engineer Career Path</p>
+                                    <p><span className="education-title">Codecademy</span>  - Building Interactive JavaScript Websites Course</p>
                                 </li>
-                            ))}
-                        </ul>
-                    </div>
-                </Col>
+                            </ul>
+                        </div>
+                    </Col>
+                </Row>
 
-                <Col xs={12} md={8}>
-                    <div className="projects-container">
-                        <h1>Projects</h1>
-                        <ul className="projects-list">
-                            {this.state.projects.slice(0).map(projects => (
-                                <li key={projects.id}>
-                                    <h2>{projects.title}</h2>
-                                    <p>{projects.description}</p>
-                                    <p style={{ fontStyle: 'italic' }}>**Technologies: {projects.languages}</p>
-                                    <div className="image-link">
-                                        <a href={projects.link} target="_blank" rel="noopener noreferrer">
-                                            <img src={projects.img} alt={projects.altImg}></img>
-                                        </a>
-                                    </div>
-                                    <div className="link-container">
-                                        <a className="site-launch-button" href={projects.link} target="_blank" rel="noopener noreferrer">Launch site</a>
-                                        <a className="site-launch-button" href={projects.githubLink} target="_blank" rel="noopener noreferrer"><DiGithubBadge size='24' /> GitHub Repo</a>
-                                    </div>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </Col>
-            </Row>
+                <Row>
+                    <Col className="border-bottom d-none d-lg-block d-md-block"></Col>
+                </Row>
+
+                <Row className="projects-skills-container">
+                    <Col xs={12} md={4} className="border-right">
+                        <div className="skills-container">
+                            <h1>Skills</h1>
+                            <ul className="skills-list">
+                                {this.state.skills.map(skills => (
+                                    <li key={skills.id}>
+                                        <p>{skills.logo}</p>
+                                        <p className="skills-title">{skills.title}</p>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </Col>
+
+                    <Col xs={12} md={8}>
+                        <div className="projects-container">
+                            <h1>Projects</h1>
+                            <ul className="projects-list">
+                                {this.state.projects.slice(0).map(projects => (
+                                    <li key={projects.id}>
+                                        <h2>{projects.title}</h2>
+                                        <p>{projects.description}</p>
+                                        <p style={{ fontStyle: 'italic' }}>**Technologies: {projects.languages}</p>
+                                        <div className="image-link">
+                                            <a href={projects.link} target="_blank" rel="noopener noreferrer">
+                                                <img src={projects.img} alt={projects.altImg}></img>
+                                            </a>
+                                        </div>
+                                        <div className="link-container">
+                                            <a className="site-launch-button" href={projects.link} target="_blank" rel="noopener noreferrer">Launch site</a>
+                                            <a className="site-launch-button" href={projects.githubLink} target="_blank" rel="noopener noreferrer"><DiGithubBadge size='24' /> GitHub Repo</a>
+                                        </div>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
         )
     }
 }

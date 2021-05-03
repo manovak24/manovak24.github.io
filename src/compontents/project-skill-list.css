@@ -1,11 +1,13 @@
 .skills-container {
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 1rem;
 }
 
 .projects-container {
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 1rem;
 }
 
 .projects-list {
@@ -67,6 +69,10 @@
     .image-link {
         transform: scale(.85);
     }
+    .education-container {
+        text-align: left !important;
+        
+    }
 }
 
 .link-container {
@@ -86,4 +92,17 @@
     margin: .45rem;
     padding: .65rem 2rem;
     text-align: center;
+}
+
+.education-container {
+    text-align: center;
+    margin: auto 1rem auto 1rem;
+}
+
+.education-container ul {
+    font-weight: 500;
+}
+
+.education-title {
+    font-weight: 700;
 }
