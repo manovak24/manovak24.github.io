@@ -7,29 +7,36 @@ import jammming from '../assets/jammming.png';
 import chore from '../assets/chore-door.png';
 import splitboardkw from '../assets/sb-k-w.png';
 import mqtbackcountry from '../assets/mqt-backcountry.png';
+import creditCardValidator from '../assets/credit-card-validator.png'
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
 const images = [
     {
         id: 1,
+        title: 'Credit Card Validator',
+        source: 'https://manovak24.github.io/credit_card_validator/',
+        image: creditCardValidator
+    },
+    {
+        id: 2,
         title: 'Jammming',
         source: 'https://manovak24.github.io/jammming/',
         image: jammming
     },
     {
-        id: 2,
+        id: 3,
         title: 'Chore Door',
         source: 'https://manovak24.github.io/chore_door/',
         image: chore
     },
     {
-        id: 3,
+        id: 4,
         title: 'Splitboard Knowledge Warehouse',
         source: 'https://manovak24.github.io/splitboard_knowledge_warehouse/',
         image: splitboardkw
     },
     {
-        id: 4,
+        id: 5,
         title: 'MQT Backcountry',
         source: 'https://manovak24.github.io/mqt_backcountry/',
         image: mqtbackcountry

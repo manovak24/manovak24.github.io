@@ -95,12 +95,16 @@
 }
 
 .education-container {
-    text-align: center;
     margin: auto 1rem auto 1rem;
 }
 
+.education-container h1 {
+    text-align: center;
+}
+
 .education-container ul {
-    font-weight: 500;
+    display: flex;
+    justify-content: center;
 }
 
 .education-title {

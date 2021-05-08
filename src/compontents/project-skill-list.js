@@ -7,6 +7,7 @@ import jammming from '../assets/thumb-jammming.png';
 import chore from '../assets/thumb-chore-door.png';
 import splitboardkw from '../assets/thumb-sb-k-w.png';
 import mqtbackcountry from '../assets/thumb-mqt-backcountry.png';
+import creditCardValidator from '../assets/thumb-credit-card-validator.png';
 
 class ProjectSkillList extends React.Component {
     constructor(props) {
@@ -53,6 +54,16 @@ class ProjectSkillList extends React.Component {
                     altImg: 'screen shot of jammming',
                     link: 'https://manovak24.github.io/jammming/',
                     githubLink: 'https://github.com/manovak24/jammming'
+                },
+                {
+                    id: 5,
+                    title: 'Credit Card Validator',
+                    description: 'This is a credit card validator app using the Luhn Algorithm. The app also utilizes sweetalert2 indicating if the card is valid or not valid.',
+                    languages: 'ReactJS, JavaScript, HTML, CSS, sweetalert2, React Credit Cards',
+                    img: creditCardValidator,
+                    altImg: 'Screen shot of Credit Card Validator',
+                    link: 'https://manovak24.github.io/credit_card_validator/',
+                    githubLink: 'https://github.com/manovak24/credit_card_validator'
                 }
             ],
             skills: [
@@ -150,7 +161,7 @@ class ProjectSkillList extends React.Component {
                         <div className="projects-container">
                             <h1>Projects</h1>
                             <ul className="projects-list">
-                                {this.state.projects.slice(0).map(projects => (
+                                {this.state.projects.slice(0).reverse().map(projects => (
                                     <li key={projects.id}>
                                         <h2>{projects.title}</h2>
                                         <p>{projects.description}</p>
