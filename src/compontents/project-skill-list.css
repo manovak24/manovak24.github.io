@@ -69,9 +69,8 @@
     .image-link {
         transform: scale(.85);
     }
-    .education-container {
+    .education-container h1 {
         text-align: left !important;
-        
     }
 }
 
