@@ -60,6 +60,14 @@
         padding-left: .5rem;
         padding-right: .5rem;
     }
+    .education-container {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .education-container ul {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .skills-title {
         display: none !important;
     }
@@ -91,10 +99,6 @@
     margin: .45rem;
     padding: .65rem 2rem;
     text-align: center;
-}
-
-.education-container {
-    margin: auto 1rem auto 1rem;
 }
 
 .education-container h1 {
