@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d51cc6c.chunk.css",
-    "main.js": "/static/js/main.b6bc85da.chunk.js",
-    "main.js.map": "/static/js/main.b6bc85da.chunk.js.map",
+    "main.css": "/static/css/main.b60ebc3c.chunk.css",
+    "main.js": "/static/js/main.052d549f.chunk.js",
+    "main.js.map": "/static/js/main.052d549f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7fc18298.js",
     "runtime-main.js.map": "/static/js/runtime-main.7fc18298.js.map",
     "static/css/2.958dff9c.chunk.css": "/static/css/2.958dff9c.chunk.css",
@@ -12,19 +12,19 @@
     "static/js/3.18ffbd21.chunk.js.map": "/static/js/3.18ffbd21.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.958dff9c.chunk.css.map": "/static/css/2.958dff9c.chunk.css.map",
-    "static/css/main.6d51cc6c.chunk.css.map": "/static/css/main.6d51cc6c.chunk.css.map",
+    "static/css/main.b60ebc3c.chunk.css.map": "/static/css/main.b60ebc3c.chunk.css.map",
     "static/js/2.87312f54.chunk.js.LICENSE.txt": "/static/js/2.87312f54.chunk.js.LICENSE.txt",
+    "static/media/MUSICforYOU.c3d1178e.png": "/static/media/MUSICforYOU.c3d1178e.png",
     "static/media/Mark Novak 3.10.21.docx.a21024ad.pdf": "/static/media/Mark Novak 3.10.21.docx.a21024ad.pdf",
     "static/media/chore-door.fe2509f0.png": "/static/media/chore-door.fe2509f0.png",
     "static/media/credit-card-validator.0d741879.png": "/static/media/credit-card-validator.0d741879.png",
-    "static/media/jammming.4d27fbb4.png": "/static/media/jammming.4d27fbb4.png",
     "static/media/mqt-backcountry.acb42f39.png": "/static/media/mqt-backcountry.acb42f39.png",
     "static/media/hero.css": "/static/media/pano4.1ccada9f.jpeg",
     "static/media/sb-k-w.5fedb273.png": "/static/media/sb-k-w.5fedb273.png",
     "static/media/slider.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/thumb-MUSICforYOU.4c055266.png": "/static/media/thumb-MUSICforYOU.4c055266.png",
     "static/media/thumb-chore-door.0677ff3f.png": "/static/media/thumb-chore-door.0677ff3f.png",
     "static/media/thumb-credit-card-validator.ac2fdb6a.png": "/static/media/thumb-credit-card-validator.ac2fdb6a.png",
-    "static/media/thumb-jammming.aeb93273.png": "/static/media/thumb-jammming.aeb93273.png",
     "static/media/thumb-mqt-backcountry.739ca25a.png": "/static/media/thumb-mqt-backcountry.739ca25a.png",
     "static/media/thumb-sb-k-w.1959ad02.png": "/static/media/thumb-sb-k-w.1959ad02.png",
     "static/media/home-page.css": "/static/media/topo-map.3ab5881c.png"
@@ -33,7 +33,7 @@
     "static/js/runtime-main.7fc18298.js",
     "static/css/2.958dff9c.chunk.css",
     "static/js/2.87312f54.chunk.js",
-    "static/css/main.6d51cc6c.chunk.css",
-    "static/js/main.b6bc85da.chunk.js"
+    "static/css/main.b60ebc3c.chunk.css",
+    "static/js/main.052d549f.chunk.js"
   ]
 }
