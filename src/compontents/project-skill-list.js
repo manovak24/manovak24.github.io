@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import { DiCss3, DiGit, DiGithubBadge, DiHtml5, DiJavascript, DiNodejs, DiNpm, DiReact } from 'react-icons/di';
 import './project-skill-list.css';
 
-import jammming from '../assets/thumb-jammming.png';
+import MUSICforYOU from '../assets/thumb-MUSICforYOU.png';
 import chore from '../assets/thumb-chore-door.png';
 import splitboardkw from '../assets/thumb-sb-k-w.png';
 import mqtbackcountry from '../assets/thumb-mqt-backcountry.png';
@@ -47,10 +47,10 @@ class ProjectSkillList extends React.Component {
                 },
                 {
                     id: 4,
-                    title: 'Jammming',
-                    description: 'This project was created using React and utilizes the Spotify API request allowing users to search music and create playlists via the Jammming app. Users are then able to push the created play list to their personal Spotify accounts.',
+                    title: 'MUSICforYOU',
+                    description: 'This project was created using React and utilizes the Spotify API request allowing users to search music and create playlists via the MUSICforYOU app. Users are then able to push the created play list to their personal Spotify accounts.',
                     languages: 'ReactJS, JavaScript, HTML, CSS, React Icons, React Bootstrap, Google Map, React pdf, React Router, React Slick and Sweet Alert',
-                    img: jammming,
+                    img: MUSICforYOU,
                     altImg: 'screen shot of jammming',
                     link: 'https://manovak24.github.io/jammming/',
                     githubLink: 'https://github.com/manovak24/jammming'

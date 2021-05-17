@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Slider from 'react-slick';
 
 import './slider.css';
-import jammming from '../assets/jammming.png';
+import MUSICforYOU from '../assets/MUSICforYOU.png';
 import chore from '../assets/chore-door.png';
 import splitboardkw from '../assets/sb-k-w.png';
 import mqtbackcountry from '../assets/mqt-backcountry.png';
@@ -19,9 +19,9 @@ const images = [
     },
     {
         id: 2,
-        title: 'Jammming',
+        title: 'MUSICforYOU',
         source: 'https://manovak24.github.io/jammming/',
-        image: jammming
+        image: MUSICforYOU
     },
     {
         id: 3,
