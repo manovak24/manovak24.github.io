@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 
 import './slider.css';
 import MUSICforYOU from '../assets/MUSICforYOU.png';
-import chore from '../assets/chore-door.png';
+import fate from '../assets/fate-of-choice.png';
 import splitboardkw from '../assets/sb-k-w.png';
 import mqtbackcountry from '../assets/mqt-backcountry.png';
 import creditCardValidator from '../assets/credit-card-validator.png'
@@ -25,9 +25,9 @@ const images = [
     },
     {
         id: 3,
-        title: 'Chore Door',
+        title: 'Fate of Choice',
         source: 'https://manovak24.github.io/chore_door/',
-        image: chore
+        image: fate
     },
     {
         id: 4,

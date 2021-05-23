@@ -4,7 +4,7 @@ import { DiCss3, DiGit, DiGithubBadge, DiHtml5, DiJavascript, DiNodejs, DiNpm, D
 import './project-skill-list.css';
 
 import MUSICforYOU from '../assets/thumb-MUSICforYOU.png';
-import chore from '../assets/thumb-chore-door.png';
+import fate from '../assets/fate-of-choice.png';
 import splitboardkw from '../assets/thumb-sb-k-w.png';
 import mqtbackcountry from '../assets/thumb-mqt-backcountry.png';
 import creditCardValidator from '../assets/thumb-credit-card-validator.png';
@@ -37,10 +37,10 @@ class ProjectSkillList extends React.Component {
                 
                 {
                     id: 3,
-                    title: 'Chore Door',
-                    description: 'This project was part of CodeCademy’s Full Stack Developer course, which consists of a single page website game built with HTML, CSS and JavaScript.',
+                    title: 'Fate of Choice',
+                    description: 'This project consists of a single page website game built with HTML, CSS and JavaScript. The objective is to select the correct doors in order to avoid the door containing chores.',
                     languages: 'HTML, CSS and JavaScript',
-                    img: chore,
+                    img: fate,
                     altImg: 'screen shot of chore door',
                     link: 'https://manovak24.github.io/chore_door/',
                     githubLink: 'https://github.com/manovak24/chore_door'
