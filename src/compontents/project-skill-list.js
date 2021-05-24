@@ -4,7 +4,7 @@ import { DiCss3, DiGit, DiGithubBadge, DiHtml5, DiJavascript, DiNodejs, DiNpm, D
 import './project-skill-list.css';
 
 import MUSICforYOU from '../assets/thumb-MUSICforYOU.png';
-import fate from '../assets/fate-of-choice.png';
+import fate from '../assets/thumb-fate-of-choice.png';
 import splitboardkw from '../assets/thumb-sb-k-w.png';
 import mqtbackcountry from '../assets/thumb-mqt-backcountry.png';
 import creditCardValidator from '../assets/thumb-credit-card-validator.png';
