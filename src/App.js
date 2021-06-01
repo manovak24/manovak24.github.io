@@ -50,34 +50,36 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
-        <ScrollToTop>
-        <Container className="p-0" fluid={true}>
-          
-          <Navbar expand="sm" className="nav-container" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
-            <Navbar.Brand>
-              <Link className="nav-brand" to="/">{this.state.title}</Link>
-            </Navbar.Brand>
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto" onClick={this.setNavClose}>
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/projects">Skills & Projects</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+      <div className="App">
+        <Router>
+          <ScrollToTop>
+          <Container className="p-0" fluid={true}>
+            
+            <Navbar expand="sm" className="nav-container" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
+              <Navbar.Brand>
+                <Link className="nav-brand" to="/">{this.state.title}</Link>
+              </Navbar.Brand>
+              <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+              <Navbar.Collapse id="navbar-toggle">
+                <Nav className="ml-auto" onClick={this.setNavClose}>
+                  <Link className="nav-link" to="/">Home</Link>
+                  <Link className="nav-link" to="/about">About</Link>
+                  <Link className="nav-link" to="/projects">Skills & Projects</Link>
+                  <Link className="nav-link" to="/contact">Contact</Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
 
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} />} />
-          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} />} />
-          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
+            <Route path="/" exact render={() => <HomePage title={this.state.home.title} />} />
+            <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
+            <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} />} />
+            <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
 
-          <Footer />
-        </Container>
-        </ScrollToTop>
-      </Router>
+            <Footer />
+          </Container>
+          </ScrollToTop>
+        </Router>
+      </div>
     );
   }
   
