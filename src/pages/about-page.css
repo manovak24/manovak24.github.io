@@ -1,5 +1,5 @@
 .bio-container {
-    text-align: center;
+    text-align: left;
     margin: auto 5rem 2rem 5rem;
 }
 
@@ -27,5 +27,21 @@
 @media screen and (max-width: 31.25rem) {
     .bio-container {
         margin: auto 2rem 2rem 2rem;
+    }
+}
+
+.prof-pic {
+    float: left;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 350px) {
+    .prof-pic {
+        float: none;
+        margin-bottom: 1rem;
+    }
+    .bio-container {
+        text-align: center;
     }
 }
