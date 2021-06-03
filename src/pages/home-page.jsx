@@ -34,7 +34,7 @@ class HomePage extends React.Component {
                             </div>
                             <div className="box">
                                 <Link className="box-anchor" to="/contact">
-                                    <p>Click here to connect!</p>
+                                    <p>Click to connect!</p>
                                     <BsChatDots size="100" />
                                 </Link>
                             </div>
