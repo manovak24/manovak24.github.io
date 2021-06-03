@@ -58,7 +58,7 @@ class ContactPage extends React.Component {
                 <Container>
                     <Row>
                         <Col className="mt-1 pb-1 pt-3" style={{textAlign:'center'}} lg={{ span: 10, offset: 1 }} >
-                            <p style={{fontWeight: '450'}}>Please feel free to reach out via my social media accounts, sending me a direct email or by filling out the contact form below. Thanks!</p>
+                            <p style={{fontWeight: '450'}}>Please feel free to reach out via my social media accounts, sending me a direct email or by filling out the contact form below. I look forward to hearing form you!</p>
                         </Col>
                     </Row>
                     <Row>
