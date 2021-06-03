@@ -57,17 +57,20 @@ class ContactPage extends React.Component {
 
                 <Container>
                     <Row>
-                        <Col className="mb-4 mt-1 pb-3 pt-3" style={{textAlign:'center'}} lg={{ span: 10, offset: 1 }} >
+                        <Col className="mt-1 pb-1 pt-3" style={{textAlign:'center'}} lg={{ span: 10, offset: 1 }} >
                             <p style={{fontWeight: '450'}}>Please feel free to reach out via my social media accounts, sending me a direct email or by filling out the contact form below. Thanks!</p>
-                            <a href="mailto:manovakcoding@gmail.com"><MdEmail /> manovakcoding@gmail.com</a>
-                            <SocialFollow />
                         </Col>
                     </Row>
                     <Row>
                         <Col className="mb-4 mt-2" xs={12} md={5} >
+                            <div style={{textAlign: 'center', marginBottom: '1rem'}}>
+                                <a href="mailto:manovakcoding@gmail.com"><MdEmail /> manovakcoding@gmail.com</a>
+                                <SocialFollow />
+                            </div>
                             <MapContainer />
                         </Col>   
                         <Col xs={12} md={7}>
+                            
                             <Form onSubmit={this.handleSubmit}>
                                 <Form.Group>
                                     <Form.Label htmlFor="full-name">Full Name</Form.Label>
