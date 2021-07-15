@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import { DiCss3, DiGit, DiGithubBadge, DiHtml5, DiJavascript, DiNodejs, DiNpm, DiReact } from 'react-icons/di';
 import './project-skill-list.css';
 
+import NumberGame from '../assets/thumb-number-game.png';
 import MUSICforYOU from '../assets/thumb-MUSICforYOU.png';
 import fate from '../assets/thumb-fate-of-choice.png';
 import splitboardkw from '../assets/thumb-sb-k-w.png';
@@ -47,6 +48,16 @@ class ProjectSkillList extends React.Component {
                 },
                 {
                     id: 4,
+                    title: 'Number Guessing Game',
+                    description: 'This web app is a number guessing game in which the player competes against the computer to see who can guess closest to the randomly generated target number. The purpose of this game is to demonstrate utilizing React’s useState() hook to store and update game variables.',
+                    languages: 'ReactJS, JavaScript, HTML, CSS, sweetalert2',
+                    img: NumberGame,
+                    altImg: 'screen shot of number guessing game',
+                    link: 'https://ecstatic-banach-130d97.netlify.app/',
+                    githubLink: 'https://github.com/manovak24/Number_Guessing_Game'
+                },
+                {
+                    id: 5,
                     title: 'MUSICforYOU',
                     description: 'This project was created using React and utilizes the Spotify API request allowing users to search music and create playlists via the MUSICforYOU app. Users are then able to push the created play list to their personal Spotify accounts.',
                     languages: 'ReactJS, JavaScript, HTML, CSS, React Icons, React Bootstrap, Google Map, React pdf, React Router, React Slick and Sweet Alert',
@@ -56,7 +67,7 @@ class ProjectSkillList extends React.Component {
                     githubLink: 'https://github.com/manovak24/jammming'
                 },
                 {
-                    id: 5,
+                    id: 6,
                     title: 'Credit Card Validator',
                     description: 'This is a credit card validator app using the Luhn Algorithm. The app also utilizes sweetalert2 indicating if the card is valid or not valid.',
                     languages: 'ReactJS, JavaScript, HTML, CSS, sweetalert2, React Credit Cards',

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Slider from 'react-slick';
 
 import './slider.css';
+import NumberGame from '../assets/number-game.png'
 import MUSICforYOU from '../assets/MUSICforYOU.png';
 import fate from '../assets/fate-of-choice.png';
 import splitboardkw from '../assets/sb-k-w.png';
@@ -25,18 +26,24 @@ const images = [
     },
     {
         id: 3,
+        title: 'Number Guessing Game',
+        source: 'https://ecstatic-banach-130d97.netlify.app/',
+        image: NumberGame
+    },
+    {
+        id: 4,
         title: 'Fate of Choice',
         source: 'https://manovak24.github.io/chore_door/',
         image: fate
     },
     {
-        id: 4,
+        id: 5,
         title: 'Splitboard Knowledge Warehouse',
         source: 'https://manovak24.github.io/splitboard_knowledge_warehouse/',
         image: splitboardkw
     },
     {
-        id: 5,
+        id: 6,
         title: 'MQT Backcountry',
         source: 'https://manovak24.github.io/mqt_backcountry/',
         image: mqtbackcountry
