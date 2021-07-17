@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e15f2caa.chunk.css",
-    "main.js": "/static/js/main.52e9146a.chunk.js",
-    "main.js.map": "/static/js/main.52e9146a.chunk.js.map",
+    "main.js": "/static/js/main.5d574a10.chunk.js",
+    "main.js.map": "/static/js/main.5d574a10.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7fc18298.js",
     "runtime-main.js.map": "/static/js/runtime-main.7fc18298.js.map",
     "static/css/2.958dff9c.chunk.css": "/static/css/2.958dff9c.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/fate-of-choice.c668800e.png": "/static/media/fate-of-choice.c668800e.png",
     "static/media/headshot.dcedaffc.jpeg": "/static/media/headshot.dcedaffc.jpeg",
     "static/media/mqt-backcountry.acb42f39.png": "/static/media/mqt-backcountry.acb42f39.png",
+    "static/media/number-game.a5f80146.png": "/static/media/number-game.a5f80146.png",
     "static/media/hero.css": "/static/media/pano4.1ccada9f.jpeg",
     "static/media/sb-k-w.5fedb273.png": "/static/media/sb-k-w.5fedb273.png",
     "static/media/slider.css": "/static/media/slick.c94f7671.ttf",
@@ -27,6 +28,7 @@
     "static/media/thumb-credit-card-validator.ac2fdb6a.png": "/static/media/thumb-credit-card-validator.ac2fdb6a.png",
     "static/media/thumb-fate-of-choice.0ffe6a8a.png": "/static/media/thumb-fate-of-choice.0ffe6a8a.png",
     "static/media/thumb-mqt-backcountry.739ca25a.png": "/static/media/thumb-mqt-backcountry.739ca25a.png",
+    "static/media/thumb-number-game.8dfc4665.png": "/static/media/thumb-number-game.8dfc4665.png",
     "static/media/thumb-sb-k-w.1959ad02.png": "/static/media/thumb-sb-k-w.1959ad02.png",
     "static/media/home-page.css": "/static/media/topo-map.3ab5881c.png"
   },
@@ -35,6 +37,6 @@
     "static/css/2.958dff9c.chunk.css",
     "static/js/2.87312f54.chunk.js",
     "static/css/main.e15f2caa.chunk.css",
-    "static/js/main.52e9146a.chunk.js"
+    "static/js/main.5d574a10.chunk.js"
   ]
 }
