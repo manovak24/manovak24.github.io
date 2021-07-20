@@ -63,8 +63,8 @@ class ProjectSkillList extends React.Component {
                     languages: 'ReactJS, JavaScript, HTML, CSS, React Icons, React Bootstrap, Google Map, React pdf, React Router, React Slick and Sweet Alert',
                     img: MUSICforYOU,
                     altImg: 'screen shot of jammming',
-                    link: 'https://manovak24.github.io/jammming/',
-                    githubLink: 'https://github.com/manovak24/jammming'
+                    link: 'https://manovak24.github.io/music_for_you/',
+                    githubLink: 'https://github.com/manovak24/music_for_you'
                 },
                 {
                     id: 6,

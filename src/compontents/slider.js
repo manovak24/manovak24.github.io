@@ -21,7 +21,7 @@ const images = [
     {
         id: 2,
         title: 'MUSICforYOU',
-        source: 'https://manovak24.github.io/jammming/',
+        source: 'https://manovak24.github.io/music_for_you/',
         image: MUSICforYOU
     },
     {
