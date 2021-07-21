@@ -63,7 +63,7 @@ To-do list:
 
 ## Status
 Project is: _in progress_
-> This will be an ongoing project with continuous improvements
+> This will be an ongoing project with continuous improvements and additions to my projects & skills list.
 
 ## Contact
 Created by [@manovak24](https://github.com/manovak24) - feel free to contact me!
