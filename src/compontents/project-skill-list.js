@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { DiCss3, DiGit, DiGithubBadge, DiHtml5, DiJavascript, DiNodejs, DiNpm, DiReact } from 'react-icons/di';
 import './project-skill-list.css';
 
@@ -9,6 +10,11 @@ import fate from '../assets/thumb-fate-of-choice.png';
 import splitboardkw from '../assets/thumb-sb-k-w.png';
 import mqtbackcountry from '../assets/thumb-mqt-backcountry.png';
 import creditCardValidator from '../assets/thumb-credit-card-validator.png';
+
+import JsCertificate from '../assets/js-certificate.pdf';
+import ReactCertificate from '../assets/react-certificate.pdf';
+import GitCertificate from '../assets/git-certificate.pdf';
+import CommandLineCertificate from '../assets/command-line-certificate.pdf';
 
 class ProjectSkillList extends React.Component {
     constructor(props) {
@@ -141,8 +147,11 @@ class ProjectSkillList extends React.Component {
                                 <li>
                                     <p><span className="education-title">Northern Michigan University</span> - Bachelor of Science - Finance and Risk Management</p>
                                     <p><span className="education-title">Northern Michigan University</span> - Masters of Business Administration</p>
-                                    <p><span className="education-title">Codecademy</span> - Full-Stack Engineer Career Path</p>
-                                    <p><span className="education-title">Codecademy</span>  - Building Interactive JavaScript Websites Course</p>
+                                    <p><span className="education-title">Codecademy Career Path</span> - Full-Stack Engineer</p>
+                                    <p><span className="education-title">Codecademy Certificate</span>  - <Link to={JsCertificate} target="_blank">Building Interactive JavaScript Websites</Link></p>
+                                    <p><span className="education-title">Codecademy Certificate</span>  - <Link to={ReactCertificate} target="_blank">Learn React</Link></p>
+                                    <p><span className="education-title">Codecademy Certificate</span>  - <Link to={GitCertificate} target="_blank">Learn Git</Link></p>
+                                    <p><span className="education-title">Codecademy Certificate</span>  - <Link to={CommandLineCertificate} target="_blank">Learn the Command Line</Link></p>
                                 </li>
                             </ul>
                         </div>
