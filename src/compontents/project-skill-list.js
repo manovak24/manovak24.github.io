@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { DiCss3, DiGit, DiGithubBadge, DiHtml5, DiJavascript, DiNodejs, DiNpm, DiReact } from 'react-icons/di';
+import { SiRedux } from 'react-icons/si';
 import './project-skill-list.css';
 
 import NumberGame from '../assets/thumb-number-game.png';
@@ -110,24 +111,31 @@ class ProjectSkillList extends React.Component {
                 },
                 {
                     id: 5,
+                    title: 'Redux',
+                    logo: <SiRedux size='48' />,
+                    alt: 'react'
+                },
+
+                {
+                    id: 6,
                     title: 'npm',
                     logo: <DiNpm size='48' />,
                     alt: 'npm'
                 },
                 {
-                    id: 6,
+                    id: 7,
                     title: 'git',
                     logo: <DiGit size='48' />,
                     alt: 'git'
                 },
                 {
-                    id: 7,
+                    id: 8,
                     title: 'GitHub',
                     logo: <DiGithubBadge size='48' />,
                     alt: 'GitHub'
                 },
                 {
-                    id: 8,
+                    id: 9,
                     title: 'node',
                     logo: <DiNodejs size='48' />,
                     alt: 'node'
