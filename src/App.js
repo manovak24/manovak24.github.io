@@ -10,6 +10,7 @@ import HomePage from './pages/home-page';
 import AboutPage from './pages/about-page';
 import ProjectsPage from './pages/projects-page';
 import ContactPage from './pages/contact-page';
+import EducationPage from './pages/education-page';
 import ScrollToTop from './compontents/scroll';
 
 class App extends React.Component {
@@ -21,6 +22,7 @@ class App extends React.Component {
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
         { title: 'Skills & Projects', path: '/projects' },
+        { title: 'Education', path: '/education' },
         { title: 'Contact', path: '/contact' }
       ],
       home: {
@@ -32,6 +34,9 @@ class App extends React.Component {
       },
       about: {
         title: 'About Me'
+      },
+      education: {
+        title: 'Education'
       },
       contact: {
         title: 'Let\'s Connect!'
@@ -65,6 +70,7 @@ class App extends React.Component {
                   <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/about">About</Link>
                   <Link className="nav-link" to="/projects">Skills & Projects</Link>
+                  <Link className="nav-link" to='/education'>Education</Link>
                   <Link className="nav-link" to="/contact">Contact</Link>
                 </Nav>
               </Navbar.Collapse>
@@ -73,6 +79,7 @@ class App extends React.Component {
             <Route path="/" exact render={() => <HomePage title={this.state.home.title} />} />
             <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
             <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} />} />
+            <Route path="/education" exact render={() => <EducationPage title={this.state.projects.title} />} />
             <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
 
             <Footer />

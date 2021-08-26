@@ -156,10 +156,17 @@ class ProjectSkillList extends React.Component {
                                     <p><span className="education-title">Northern Michigan University</span> - Bachelor of Science - Finance and Risk Management</p>
                                     <p><span className="education-title">Northern Michigan University</span> - Masters of Business Administration</p>
                                     <p><span className="education-title">Codecademy Career Path</span> - Full-Stack Engineer</p>
-                                    <p><span className="education-title">Codecademy Certificate</span>  - <Link to={JsCertificate} target="_blank">Building Interactive JavaScript Websites</Link></p>
-                                    <p><span className="education-title">Codecademy Certificate</span>  - <Link to={ReactCertificate} target="_blank">Learn React</Link></p>
-                                    <p><span className="education-title">Codecademy Certificate</span>  - <Link to={GitCertificate} target="_blank">Learn Git</Link></p>
-                                    <p><span className="education-title">Codecademy Certificate</span>  - <Link to={CommandLineCertificate} target="_blank">Learn the Command Line</Link></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="education-container">
+                            <h1>Certificates</h1>
+                            <ul>
+                                <li>
+                                    <p><span className="education-title">Codecademy</span>  - <Link to={JsCertificate} target="_blank">Building Interactive JavaScript Websites</Link></p>
+                                    <p><span className="education-title">Codecademy</span>  - <Link to={ReactCertificate} target="_blank">Learn React</Link></p>
+                                    <p><span className="education-title">Codecademy</span>  - <Link to={GitCertificate} target="_blank">Learn Git</Link></p>
+                                    <p><span className="education-title">Codecademy</span>  - <Link to={CommandLineCertificate} target="_blank">Learn the Command Line</Link></p>
                                 </li>
                             </ul>
                         </div>
