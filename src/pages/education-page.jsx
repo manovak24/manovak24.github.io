@@ -4,7 +4,10 @@ import React from 'react';
 class EducationPage extends React.Component {
     render() {
         return (
-            <h1>Hello World</h1>
+            <div>
+                <h1>Hello World</h1>
+                <p>Create this page for list of education</p>
+            </div>
         )
     }
 }
